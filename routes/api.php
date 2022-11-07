@@ -23,3 +23,6 @@ Route::get('/create-bio', [Hng9BioController::class, 'createHngBio']);
 
 //Return Bio Data
 Route::get('/hng9-bio', [Hng9BioController::class, 'hngBio']);
+
+//arithemetic Operation Route
+Route::post('arithemetic', [ArithemeticController::class, 'arithemetic']);
